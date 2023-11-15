@@ -44,13 +44,13 @@ function Cart({cart,setCart,customData}) {
             cart.length? cart.map((product , i)=>{
               totalPrice += product.price * product.quantity;
               return (
-                <div className="cart_content_main" id={product.id}>
+                <div className="cart_items" id={product.id}>
               <img src={product.imageURL} alt="" />
                <div className="price_box">
                 <p>{product.name}</p>
                 <h4>Rs {product.price * product.quantity}</h4>
                </div>
-               <div className="button_box">
+               <div className="cart_buttons">
                  <div className="increment_decrement">
                   <button onClick={()=>{
                     updateCartItem(product.id,product.quantity+1);

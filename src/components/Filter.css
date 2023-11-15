@@ -4,13 +4,13 @@
     display: flex;
     justify-content: space-between;
 }
-.filter_div{
+.filter_container{
     width: 30%;
     height: 70%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     margin-top: 20px;
 }
-.check_box_div{
+.checkbox_container{
     width: 100%;
     height: auto;
     margin-left: 0px;
@@ -53,11 +53,11 @@ h4{
         align-items: center;
     }
 
-    .filter_div {
+    .filter_container {
         width: 90%;
     }
 
-    .check_box_div,
+    .checkbox_container,
     .check_box {
         width: 100%;
     }

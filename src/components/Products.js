@@ -51,7 +51,7 @@ function Products({products, setProducts, customData,cart,setCart,loading}) {
            {loading ?(
            <img className='loaderImage' src='https://media2.giphy.com/media/y1ZBcOGOOtlpC/giphy.gif?cid=ecf05e4753aabltvud183bd7pgp5ti7ppqneh6o4eaq7c4bt&ep=v1_gifs_search&rid=giphy.gif&ct=g' alt="No img chosen"/> 
            ) :
-           ( <div className='product_list_div'>
+           ( <div className='product_list'>
                    {products.map((product,ind)=>{
                         return(
                    <ProductCard product={product} addToCart={addToCart} key={ind}/>

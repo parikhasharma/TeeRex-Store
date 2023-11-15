@@ -1,4 +1,4 @@
-.product_card {
+.product_content {
     width: 220px;
     height: auto; 
     position: relative;
@@ -11,7 +11,7 @@ img {
     margin-top: 20px;
 }
 
-.item_details {
+.product_details {
     width: 100%;
     display: flex;
     flex-wrap: wrap; 

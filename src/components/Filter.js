@@ -38,54 +38,50 @@ function Filter({filters,setFilters, products,setProducts,customData,searchInput
    
     
   return (
-        <div className='filter_div'>
-             {/* color filter box */}
-            <div className="check_box_div">
+        <div className='filter_container'>
+            <div className="checkbox_container">
                 <h4>Color</h4>
                 <div className="check_box">
-                <input type="checkbox" name="color"  onChange={handleFilterChange} value={'Red'} /> <label htmlFor="">Red</label>
+                <input type="checkbox" name="color"  onChange={handleFilterChange} value={'Red'} /> <label>Red</label>
                 </div>
                 <div className="check_box">
-                <input type="checkbox" name="color" onChange={handleFilterChange}  value={"Blue"} /> <label htmlFor="">Blue</label>
+                <input type="checkbox" name="color" onChange={handleFilterChange}  value={"Blue"} /> <label>Blue</label>
                 </div>
                 <div className="check_box">
-                <input type="checkbox" name="color" onChange={handleFilterChange} value={'Green'} /> <label htmlFor="">Green</label>
+                <input type="checkbox" name="color" onChange={handleFilterChange} value={'Green'} /> <label>Green</label>
                 </div>
             </div>
-              {/* gender filter box */}
-              <div className="check_box_div">
+              <div className="checkbox_container">
                 <h4>Gender</h4>
                 <div className="check_box">
-                <input type="checkbox" name="gender" onChange={handleFilterChange} value={'Men'} /> <label htmlFor="">Men</label>
+                <input type="checkbox" name="gender" onChange={handleFilterChange} value={'Men'} /> <label>Men</label>
                 </div>
                 <div className="check_box">
-                <input type="checkbox" name="gender" onChange={handleFilterChange} value={"Women"} /> <label htmlFor="">Women</label>
+                <input type="checkbox" name="gender" onChange={handleFilterChange} value={"Women"} /> <label>Women</label>
                 </div>
             </div>
-            {/* price filter box */}
-            <div className="check_box_div">
+            <div className="checkbox_container">
                 <h4>Price</h4>
                 <div className="check_box">
-                <input type="checkbox" name="price" onChange={handleFilterChange} value={250} /> <label htmlFor="">Rs 0- Rs 250</label>
+                <input type="checkbox" name="price" onChange={handleFilterChange} value={250} /> <label>Rs 0- Rs 250</label>
                 </div>
                 <div className="check_box">
-                <input type="checkbox" name="price" onChange={handleFilterChange} value={251} /> <label htmlFor="">Rs 251- Rs 450</label>
+                <input type="checkbox" name="price" onChange={handleFilterChange} value={251} /> <label>Rs 251- Rs 450</label>
                 </div>
                 <div className="check_box">
-                <input type="checkbox" name="price" onChange={handleFilterChange} value={450} /> <label htmlFor=""> Rs 450</label>
+                <input type="checkbox" name="price" onChange={handleFilterChange} value={450} /> <label> Rs 450</label>
                 </div>
             </div>
-             {/* type filter div */}
-             <div className="check_box_div">
+             <div className="checkbox_container">
                 <h4>Type</h4>
                 <div className="check_box">
-                <input type="checkbox" name="type" onChange={handleFilterChange} value={'Polo'} /> <label htmlFor="">Polo</label>
+                <input type="checkbox" name="type" onChange={handleFilterChange} value={'Polo'} /> <label>Polo</label>
                 </div>
                 <div className="check_box">
-                <input type="checkbox" name="type" onChange={handleFilterChange} value={"Hoodie"} /> <label htmlFor="">Hoodie</label>
+                <input type="checkbox" name="type" onChange={handleFilterChange} value={"Hoodie"} /> <label>Hoodie</label>
                 </div>
                 <div className="check_box">
-                <input type="checkbox" name="type" onChange={handleFilterChange} value={'Basic'} /> <label htmlFor="">Basic</label>
+                <input type="checkbox" name="type" onChange={handleFilterChange} value={'Basic'} /> <label>Basic</label>
                 </div>
             </div>
          </div>

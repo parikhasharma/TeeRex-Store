@@ -16,7 +16,7 @@ function SearchBar({ searchInput, setSearchInput,products ,setProducts, customDa
   }, [searchInput, setProducts,customData]);
 
   return (
-    <div className="searchDiv">
+    <div className="search-bar">
       <input
         className="search-input"
         type="text"
@@ -24,7 +24,7 @@ function SearchBar({ searchInput, setSearchInput,products ,setProducts, customDa
         value={searchInput}
         onChange={(e) => setSearchInput(e.target.value)}
       />
-      <div className="searchIconDiv">
+      <div className="search-icon-div">
         <span className="search-icon">🔍</span>
       </div>
     </div>

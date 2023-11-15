@@ -1,4 +1,4 @@
-.searchDiv{
+.search-bar{
     width: 40%;
     height: 70px;
     margin-left: auto;
@@ -15,7 +15,7 @@
     border-right: 0px;
     outline: none;
 }
-.searchIconDiv{
+.search-icon-div{
     width: 47px;
     height: 40px;
     margin-right: auto;
@@ -25,7 +25,6 @@
     padding-top: 8px;
     border-radius: 5px;
     cursor: pointer;
-   
 }
 .search-icon {
     color: black !important;
