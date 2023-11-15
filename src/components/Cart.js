@@ -42,7 +42,7 @@ function Cart({cart,setCart,customData}) {
        <div className="cart_content">
           {
             cart.length? cart.map((product , i)=>{
-              {totalPrice+=(product.price*product.quantity)}
+              totalPrice += product.price * product.quantity;
               return (
                 <div className="cart_content_main" id={product.id}>
               <img src={product.imageURL} alt="" />
