@@ -4,25 +4,19 @@ A simple E-Commerce project challenge.
 Run Project :
 npm run start
 
-Team Members
-Solo project
-
-Tech Stacks
+Tech Used
 React
 React Router Dom
-API
 HTML
 JavaScript
 CSS
 
-Tools
-Vs Code
-Git
 
 Functionalities
 Product Page with searching and filtering options
-User can add product into cart
-User can increase/decrease quantity of product and also delete it from the cart
+User can add product to the cart.
+User can increase or decrease the quantity of the products.
+User can also delete the product from the cart.
 
 
 Installation
