@@ -33,7 +33,7 @@ function Filter({filters,setFilters, products,setProducts,customData,searchInput
             setProducts(filteredProducts)      
         }
        }
-    },[filters,setProducts])
+    },[filters,setProducts,customData,searchInput,filteredProducts])
 
    
     

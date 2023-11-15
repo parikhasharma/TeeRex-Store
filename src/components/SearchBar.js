@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './SearchBar.css';
 
 function SearchBar({ searchInput, setSearchInput,products ,setProducts, customData }) {
@@ -13,7 +13,7 @@ function SearchBar({ searchInput, setSearchInput,products ,setProducts, customDa
       searchedProducts = customData;
     }
     setProducts(searchedProducts);
-  }, [searchInput, setProducts]);
+  }, [searchInput, setProducts,customData]);
 
   return (
     <div className="searchDiv">

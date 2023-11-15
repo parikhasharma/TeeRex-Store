@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import { useNavigate } from 'react-router-dom';
@@ -42,7 +42,7 @@ function Cart({cart,setCart,customData}) {
        <div className="cart_content">
           {
             cart.length? cart.map((product , i)=>{
-              {totalPrice= totalPrice+(product.price*product.quantity)}
+              {totalPrice+=(product.price*product.quantity)}
               return (
                 <div className="cart_content_main" id={product.id}>
               <img src={product.imageURL} alt="" />
@@ -74,7 +74,7 @@ function Cart({cart,setCart,customData}) {
           
         </div>
 
-        <h4> {totalPrice==0?"":`Total Amount : ${totalPrice}`}</h4>
+        <h4> {totalPrice===0?"":`Total Amount : ${totalPrice}`}</h4>
     </div>
 
 
