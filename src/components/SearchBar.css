@@ -1,0 +1,35 @@
+.searchDiv{
+    width: 40%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: 20%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.search-input{
+    width: 70%;
+    height: 40px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+.searchIconDiv{
+    width: 47px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: 5px;
+    background-color: #979292;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.search-icon {
+    color: black !important;
+    font-size: 24px;
+    font-weight: 100;
+    cursor: pointer;
+}

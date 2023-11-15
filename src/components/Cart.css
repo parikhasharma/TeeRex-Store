@@ -1,0 +1,98 @@
+.cart_container{
+    width: 100%;
+    height: 500px;
+}
+.cart_container > p{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #042C22;
+}
+.cart_container > h4{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #042C22;
+}
+ .cart_content{
+    width: 50%;
+    height: 80%;
+    margin-left: 13%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
+    overflow: auto;
+
+}
+.cart_content_main{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    margin-bottom: 25px;
+}
+.cart_content_main>img{
+    width:25%;
+    height: 100%;
+}
+.price_box{
+    width: 25%;
+    height: 50px;
+    margin-top: 10px;
+}
+.price_box > p{
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.cart_content_main>.button_box{
+    width: 40%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15px;
+    padding: 10px;
+  }
+.increment_decrement{
+    width: 40%;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+}
+.button_box > button{
+    width: 130px;
+    height: 40px;
+    background-color: #042C22;;
+    border-radius: 7px;
+    border:none;
+}
+.increment_decrement > button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    color:black;
+    background-color: rgb(255, 217, 0);
+    font-size: 19px;
+}
+button{
+    cursor: pointer;
+}
+
+.empty_cart_div > h2 {
+    font-size: 30px;
+    font-family: monospace;
+    color: #042C22;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.empty_cart_div > img {
+    max-width: 50%; 
+    max-height: 50%;
+    display: block; 
+    margin: 0 auto; 
+}
